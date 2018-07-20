@@ -54,7 +54,7 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
@@ -64,3 +64,122 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+body {
+    width: 880px;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 880px;
+    height: 50px;
+    background-color: white;
+    z-index: 2;
+}
+
+nav {
+    display: inline;
+}
+
+nav a {
+    display: inline-block;
+    width: 100px;
+    text-decoration: none;
+    position:relative;
+    top: -10px;
+    text-align: center;
+    color: black;
+}
+
+#logo {
+    display: inline-block;
+    width: 183px;
+    height: 36px;
+    background-image: url(/img/logo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+}
+
+#hero-area {
+    position: relative;
+    top: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid black;
+}
+
+h1 {
+    font-size: 52px;
+}
+#hero-text {
+    display: inline-block;
+    text-align: center;
+    width: 528px;
+    position: relative;
+    top: -70px;
+}
+
+#hero-btn {
+    border: 1px solid black;
+    width: 180px;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+#hero-img {
+    display: inline-block;
+    width: 250px;
+    height: 250px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    background-image: url(/img/header-img.png);
+    background-size: cover;
+}
+
+#top-info{
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+
+.half-info {
+    display: inline-block;
+    width: 430px;
+    padding: 20px;
+}
+
+#stand-for {
+    text-align: left;
+    padding-left: 100px;
+}
+
+.middle-img {
+    background-image: url(/img/mid-page-accent.jpg);
+    height: 176px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#mid-info {
+    margin-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid black;
+}
+
+.third-info {
+    display: inline-block;
+    width: 280px;
+    padding: 10px;
+    
+}
+
+#contact{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+footer{
+    text-align: center;.
+}
