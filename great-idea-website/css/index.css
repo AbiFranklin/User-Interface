@@ -92,13 +92,18 @@ nav a {
     top: -10px;
     text-align: center;
     color: black;
+    transition: transform 1s ease-in;
+}
+
+nav a:hover {
+    transform: rotate(360deg);
 }
 
 #logo {
     display: inline-block;
     width: 183px;
     height: 36px;
-    background-image: url(/img/logo.png);
+    background-image: url(/great-idea-website/img/logo.png);
     background-size: cover;
     background-repeat: no-repeat;
     margin-top: 10px;
@@ -135,7 +140,7 @@ h1 {
     height: 250px;
     margin-top: 50px;
     margin-bottom: 25px;
-    background-image: url(/img/header-img.png);
+    background-image: url(/great-idea-website/img/header-img.png);
     background-size: cover;
 }
 
@@ -156,7 +161,7 @@ h1 {
 }
 
 .middle-img {
-    background-image: url(/img/mid-page-accent.jpg);
+    background-image: url(/great-idea-website/img/mid-page-accent.jpg);
     height: 176px;
     background-repeat: no-repeat;
     background-size: cover;
